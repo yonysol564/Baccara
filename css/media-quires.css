@@ -1,0 +1,726 @@
+/*csss*/
+/*========================================================================================================================
+			============================	     	M  E  D  I  A      Q  U  E  R  I  E  S    	==================================
+==========================================================================================================================*/
+@media(max-width:1200px) {
+	nav.desktop_nav {
+	    height: 55px;
+	    margin-bottom: 0;
+	}
+	nav.desktop_nav .nav>li>a {
+	    padding: 5px 3px;
+	    font-size: 12px;
+	}
+	nav.desktop_nav .main_right_menu{
+		margin-top: 23px;
+	}
+	nav.desktop_nav .main_right_menu .top_icons{
+		    padding: 4px 0px;
+	}
+	nav.desktop_nav .navbar-brand>img{
+		width: 140px;
+	}
+	nav.desktop_nav .navbar-brand {
+	    padding: 0;
+	    margin-top: 2px;
+	}
+	section.solution_main .solution_cube_img{
+		height: 300px;
+	}
+	nav.desktop_nav .lang_div {
+		top: 5px;
+	}
+	.baccara_products_top .container h1 {
+		letter-spacing: 20px;
+	}
+	section.pro_seperator .container:before{
+		left: -485px;
+	}
+	section.pro_seperator .container:after{
+		    right: -478px;
+	}
+	/*===================================================================================
+	      =================       C U S T O M E R S    ===================
+	====================================================================================*/
+}
+@media(max-width:991px) {
+
+	section.baccara_products_main .info_row .type_div {
+		display: none;
+	}
+	section.baccara_products_main .products_row .col-md-9,
+	section.baccara_products_main .info_row .col-md-9 {
+		padding-left: 15px;
+	}
+
+	.water_sec ,.indus_sec{
+		    padding-bottom: 30px;
+	}
+	.state_bg .state_hex_div{
+		display: none;
+	}
+	section.news_highlights span{
+		letter-spacing: 20px;
+	}
+	.about_bg .about_hex_div{
+		opacity: 0.3;
+	}
+.baccara_products_top .container h1 {
+    margin: 0;
+    letter-spacing: 12px;
+    line-height: 44px;
+    font-size: 25px;
+}
+  	 div.open .col_item{
+	    text-align: center;
+	 }
+	 section.pro_seperator .container{
+	 	background-size: cover;
+	 }
+	.contact_shad_class{
+	    background: none;
+	    padding-top: 0px;
+  	}
+  	.headquarters_sec .con_content .text-center,
+  	.global_sec .con_content .text-center{
+  		text-align: left;
+  	}
+  	.worldwide_sec .con_content .container .row .col-md-4{
+		padding-bottom: 20px;
+		background: url('../images/contactsecbg3.png') center top no-repeat;
+	    background-size: 100% 59px;
+	    padding-top: 35px;
+	}
+	.worldwide_sec .con_content .worldwide_p{
+    	width: 100%;
+ 	 }
+  .worldwide_sec .con_content .worldwide_p p{
+  	  text-align: center !important;
+  }
+  	.headquarters_sec .con_content .container .row,
+	.global_sec .con_content .container .row{
+	    margin-bottom: 10px;
+	    padding-bottom: 20px;
+	    background: url('../images/contactsecbg.png') center top no-repeat;
+	    background-size: 100% 59px;
+	    padding-top: 35px;
+	}
+}
+@media(max-width:767px) {
+	section.bread_sec{
+		display: none;
+	}
+	.col-xs-5ths {
+    width: 50%;
+	}
+	/*===================================================================================
+	=================	     	 H E A D E R /  NAVEBAR      	===================
+	====================================================================================*/
+	nav.desktop_nav{
+		display: none;
+	}
+	nav.mobile_nav{
+		    border: 1px solid transparent;
+		    border-color: #e7e7e7;
+	}
+	nav.mobile_nav{
+		display: block;
+		margin-bottom: 0;
+	}
+	nav.mobile_nav .navbar-brand{
+		 margin-top: 0px;
+		 margin-left: 10px;
+	    padding-top: 5px;
+	}
+	nav.mobile_nav .navbar-brand>img{
+		width: 120px;
+	}
+	nav.mobile_nav .main_right_menu{
+		position: absolute;
+	    z-index: 99999;
+	    width: 100%;
+	    background: #fff;
+	}
+	nav.mobile_nav .navbar-toggle{
+		border: none;
+		 margin-top: 10px;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		background-color: #000;
+	}
+	nav.mobile_nav .navbar-nav {
+	    margin: 0px -15px;
+	}
+	nav.mobile_nav .navbar-nav>li>a{
+		padding: 8px 3px;
+		padding-left: 15px;
+		font-size: 16px;
+	}
+	nav.mobile_nav .lang_m_div{
+		float:right;
+		padding-top: 15px;
+	}
+	nav.mobile_nav .lang_m_div select.lang_selector_m{
+	   -webkit-appearance: none;
+	}
+	nav.mobile_nav .lang_m_div select.lang_selector_m{
+	  background: url(../images/caret.png) no-repeat right;
+	  background-size: 20%;
+	  padding-right: 15px;
+	  background-position: 95%;
+	  cursor: pointer;
+	  border: 1px solid #ccc;
+	}
+	nav.mobile_nav .navbar-nav>li.mega-menu ul.sub-menu {
+		display: none;
+	}
+	nav.mobile_nav .navbar-nav>li.about_li ul.sub-menu,
+	nav.mobile_nav .navbar-nav>li.about_li ul.sub-menu li.worldwidemenu ul.sub-menu{
+		list-style: none;
+	}
+	nav.mobile_nav .navbar-nav>li.about_li ul.sub-menu li.worldwidemenu.closi{
+	position: relative;
+	  background: url(../images/caret.png) no-repeat top right;
+	  background-size: 25px;
+	  padding-right: 15px;
+	  cursor: pointer;
+	  background-position-x:97%;
+	}
+	nav.mobile_nav .navbar-nav>li.about_li ul.sub-menu li.worldwidemenu.openi{
+	 position: relative;
+	  background: url(../images/caretop.png) no-repeat top right;
+	  background-size: 25px;
+	  padding-right: 15px;
+	  cursor: pointer;
+	  background-position-x:97%;
+	}
+	.ul_sub_menu_none{
+		display: none;
+	}
+/*	nav.mobile_nav .navbar-nav>li.about_li ul.sub-menu li.worldwidemenu ul.sub-menu{
+		display: none;
+	}*/
+	nav.mobile_nav .navbar-nav>li.about_li ul.sub-menu li a{
+		padding: 8px 3px;
+	    padding-left: 15px;
+	    font-size: 16px;
+	    color: #000;
+	    font-weight: 600;
+	}
+	/*===================================================================================
+			================	   S I D E B A R   	================
+	====================================================================================*/
+	#sidebar{
+		display: none;
+	}
+	/*===================================================================================
+			================	   H O M E P A G E    	================
+	====================================================================================*/
+	.home_bg .header_div{
+		left: 0;
+	    right: 0;
+	}
+	.water_sec h2.sec_h2, .indus_sec h2.sec_h2, .products_sec h2.sec_h2 {
+	    font-size: 20px;
+	    text-align: center;
+	}
+	section.products_sec .container h3{
+		text-align: center;
+		font-size: 16px;
+	}
+	section.products_sec .container .con_tabs section.tab-content .container .row .img_col a,
+	section.products_sec .container .nav_tabs .img_col a{
+		font-size: 14px;
+	}
+	section.products_sec .container .con_tabs section.tab-content a span{
+		font-size: 14px;
+	}
+	section.products_sec .container .con_tabs section.tab-content a:hover img{
+		-webkit-transform:none;
+		transform:none;
+		margin-bottom: 0;
+	}
+	/*===================================================================================
+			================	    	 A B O U T      	================
+	====================================================================================*/
+	.about_bg .about_h1{
+		font-size: 22px;
+		text-align: center;
+		margin-top: 40px;
+		letter-spacing: 5px;
+	}
+	.about_bg .about_h4{
+		font-size: 13px;
+    	text-align: center;
+	}
+	.about_bg .about_hex_div{
+		display: none;
+	}
+	.about_bg .about_web_div_l{
+		position: relative;
+		font-size: 15px;
+	    letter-spacing: 3px;
+	    text-align: center;
+	    padding-left: 0;
+	}
+	.about_bg p{
+		line-height: 2.0rem;
+	}
+	/*===================================================================================
+			================	    	C O N T A C T   	================
+	====================================================================================*/
+	.contact_bg{
+		background:none;
+	}
+	.contact_bg .img_div img{
+		display: none;
+	}
+	.contact_bg .contact_div{
+		padding-left: 0;
+		padding-top: 0;
+		float: none !important;
+	}
+	.contact_bg .contact_div h1{
+		text-align: center;
+	}
+	.headquarters_sec .contact_h2,
+	.global_sec .contact_h2,
+	 .worldwide_sec .contact_h2{
+		text-align: center;
+		font-size: 14px;
+		letter-spacing: 5px;
+	}
+	.worldwide_sec .con_content{
+		text-align: center;
+	}
+	.headquarters_sec .con_content .text-center,
+  	.global_sec .con_content .text-center{
+  		text-align: center;
+  	}
+	.headquarters_sec .con_content, .global_sec .con_content{
+		text-align: center;
+		padding-top: 10px;
+	}
+	.worldwide_sec .con_content .row{
+		padding-bottom: 0;
+	}
+	.worldwide_sec .con_content .worldewide_p{
+		width: 100%;
+	}
+	.form_sec .form_div{
+		width: 100%;
+	}
+	.form_sec .contact_h2{
+		text-align: center;
+	}
+	/*===================================================================================
+			================	    	 S T A T E     	================
+	====================================================================================*/
+	.state_bg .state_h1{
+		font-size: 27px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.state_bg .state_h4{
+		text-align: center;
+		margin-top: 20px;
+	}
+	.state_bg .states_flag_div{
+        display:block;
+    }
+	section.key_people .container .row .img_col div.p_name{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+/*	section.baccara_cn .inner-col .inner_item span{
+		padding-left: 0;
+	}*/
+	section.baccara_cn .inner-col{
+		line-height: 50px;
+	}
+	section.baccara_cn .inner-col .inner_item a.contact_us{
+	    padding: 4px 15px;
+	    background: transparent;
+	    color: #fff;
+	    border-radius: 0;
+	    border: 1px dashed;
+	    text-decoration: none;
+	    margin-left: 0px;
+	}
+	section.baccara_cn .inner-col .inner_item span.state_con_text{
+		padding-left: 0;
+		width: 100%;
+	    display: block;
+	}
+	section.projects .container .row .img_col a {
+    	border-bottom: 1px solid #BCBCBC;
+    	padding-bottom: 30px;
+	}
+	section.projects .container .row .img_col{
+		text-align: center;
+	}
+	section.projects .container .row .img_col a img{
+		display: inline-block;
+	}
+	/*===================================================================================
+			================	    	 N E W S     	================
+	====================================================================================*/
+	section.news_highlights .container .row div{
+		text-align: center;
+	}
+	section.news_highlights span{
+		font-size: 17px;
+	    letter-spacing: 5px;
+	    text-align: center;
+	}
+	section.news_posts .row_posts{
+		margin-top: 20px;
+	}
+	.news_bg .container{
+		min-height: 160px;
+	}
+	.news_bg .news_h1{
+		font-size: 40px;
+	    font-weight: 900;
+	    text-align: center;
+	    padding-top: 5px;
+	}
+	section.news_posts .row_posts a h3{
+	    font-size: 20px;
+	    text-align: center;
+	}
+	section.news_posts .row_posts .read_more_div{
+		text-align: center;
+		border-bottom: 1px solid #BCBBBB;
+    	padding-bottom: 20px;
+	}
+	/*===================================================================================
+        =================            S O L U T I O N          ===================
+  	====================================================================================*/
+	.water_bg{
+		min-height: 200px;
+	}
+	.indus_bg .container{
+		min-height: 200px;
+	}
+	section.solution_title{
+		text-align: center;
+	}
+	section.solution_title span{
+		font-size: 18px;
+    	letter-spacing: 4px;
+	}
+	section.solution_main{
+		text-align: center;
+	}
+	section.solution_main h3.solution_h3{
+		letter-spacing: 3px;
+    	font-size: 18px;
+	}
+	section.solution_main .description{
+		text-align: left;
+	}
+	section.indus_download_bg .container,
+	section.water_download_bg .container{
+		background:none;
+	}
+	section.indus_download_bg .inner-col,
+	section.water_download_bg .inner-col{
+		text-align: center;
+		 min-height: 60px;
+    	line-height: 60px;
+	}
+	section.indus_download_bg .inner-col .inner_item span.state_con_text,
+	section.water_download_bg .inner-col .inner_item span.state_con_text{
+		padding-left: 0;
+		width: 100%;
+	    display: block;
+	}
+	section.indus_download_bg .inner-col .inner_item a.contact_us,
+	section.water_download_bg .inner-col .inner_item a.contact_us{
+		margin-left: 0;
+	}
+  /*===================================================================================
+        ============      S O L U T I O N   C A T E G O R Y         =============
+  ====================================================================================*/
+	.bg_single_cat{
+		min-height: 250px;
+	}
+	 .slick-arrow {
+		display: none !important;
+	  }
+		.cat_desc_append .container .main_col{
+			padding-right: 0;
+			padding-left: 0;
+		}
+		.cat_top_div .h1_div{
+			float: none;
+		}
+		.cat_desc_append .div_desc{
+			padding: 15px;
+		}
+	  .cat_top_div .h1_div h1{
+	  	font-size: 25px;
+	  	float: none;
+	  	text-align: center;
+	  	letter-spacing: 5px;
+	  /*	line-height: 50px;*/
+	  }
+	  .cat_top_div .catalog_div{
+	  	display: none;
+	  }
+	  .cat_top_div .img_div{
+	  	display: none;
+	  }
+	  .cat_desc_append .div_desc{
+	  	position: relative;
+	  	width: 100%;
+	  }
+	  .cat_desc_append .div_form{
+	  	background: #f1f1f1;
+	  	padding: 40px;
+	  	position: relative;
+	  	width: 100%;
+	  	height: auto;
+	  }
+	  .cat_desc_append .div_form form .wrap_div input{
+	  	height: 23px;
+	  	opacity: 1;
+	  }
+	  section.relevant_product h4.rel_h4{
+	    letter-spacing: 5px;
+	    font-size: 18px;
+	    text-align: center;
+	  }
+	/*===================================================================================
+      =================       P R O DU C T  SINGLE  I N D E X         ===================
+  	====================================================================================*/
+  	.baccara_products_top .container h1{
+	  letter-spacing: 5px;
+	  font-size: 20px;
+	  text-align: center;
+  	}
+  	section.baccara_products_main .products_row .img_div{
+  		text-align: center;
+  	}
+  	section.baccara_products_main .row_title .img_catalog_div div.text_div{
+  		text-align: center;
+  	}
+  	section.baccara_products_main .row_title .img_catalog_div div.catalog_img_div{
+	  		padding-right: 0;
+	  		text-align: center;
+  	}
+  	section.baccara_products_main .row_title h3{
+    	text-align: center;
+  	}
+  	.baccara_products_top .container .col_dis{
+  		display: none;
+  	}
+  	section.baccara_products_main .shad{
+  		border-bottom: 1px solid #013d64;
+  	}
+  	.baccara_products_bottom h2{
+	    letter-spacing: 1px;
+	    line-height: 40px;
+	    font-size: 15px;
+	    text-align: center;
+  	}
+  	section.baccara_products_main .products_row .img_div img.img_glar{
+  		right: 0;
+  	}
+  	section.baccara_products_main .products_row .img_catalog_div{
+  		position: relative;
+	    right: auto;
+  	}
+  	.baccara_products_bottom_single h2{
+  		font-size: 17px;
+  	}
+  	section.baccara_products_main .products_row .col-md-9,
+  	section.baccara_products_main .info_row .col-md-9{
+		padding-left: 15px;
+  	}
+  	section.baccara_products_main .info_row .inner_div_links .technical_div,
+  	section.baccara_products_main .info_row .inner_div_links .inquiry_div{
+	   width: 100%;
+	    float: none;
+	    text-align: center;
+  	 }
+  	 .center_form_popup .inner_div{
+  	 	padding: 45px 30px;
+    	padding-bottom: 0px;
+  	 }
+	.center_form_popup .inner_div .div_title{
+		padding: 10px;
+	}
+  	 .center_form_popup .inner_div .div_title h3{
+  	 	font-size: 20px;
+    	text-align: center;
+  	 }
+  	 .center_form_popup .inner_div .row_item .div_label{
+  	 	padding-left: 0;
+  	 }
+  	 .center_form_popup .inner_div .row_item .div_label_request{
+  	 	padding-top: 0;
+  	 }
+  	 .center_form_popup .inner_div .row_item .btn_div{
+  	 	 width: 100%;
+   		 float: none;
+  	 }
+  	 .center_form_popup .inner_div .row_item .div_label span{
+  	 	font-size: 16px;
+  	 }
+  	 .center_form_popup .inner_div .row_item .btn_div input{
+  	 	font-size: 17px;
+  	 }
+  	 .center_form_popup .inner_div input{
+  	 	height: 35px;
+	    font-size: 16px;
+  	 }
+	/*===================================================================================
+			================	    	 D O W N L O A D S      	================
+	====================================================================================*/
+	.downloads_bg{
+		background:none;
+	}
+	.downloads_bg .img_div{
+		display: none;
+	}
+	.downloads_bg .downloads_div{
+		float: none !important;
+		padding-left: 0px;
+	}
+	.downloads_bg .downloads_div h1{
+		text-align: center;
+		margin-top: 30px;
+    	font-size: 40px;
+	}
+	div.open h2.item_h2{
+	    font-size: 30px;
+	    letter-spacing: 2px;
+	}
+/*===================================================================================
+    ==================      C U S T O M   M A D E        ====================
+====================================================================================*/
+	.custom_made_main .custom_made_main_img{
+		display: none;
+	}
+	.state_bg .custom_made_bg {
+		float: none !important;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+  .state_bg .custom_made_bg small{
+    padding-left: 0%;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+  }
+  .state_bg .custom_hex_div{
+      position: absolute;
+      top: 20px;
+      right: -40px;
+  }
+  .state_bg .custom_made_bg h1{
+    margin-bottom: 5px;
+  }
+  .custom_made_main .custom_made_steps{
+    float: none;
+    width: 100%;
+    padding-top: 25px;
+  }
+   .custom_made_main .custom_made_steps .img_div{
+     text-align: center;
+   }
+   .custom_made_main .custom_made_steps .arr_img,
+  .custom_made_main .custom_made_steps .step_text{
+    float: none;
+   }
+.custom_made_main .custom_made_steps .arr_img{
+     margin: 0 2px;
+     padding-top: 4px;
+     text-align: center;
+     transform: rotate(90deg) scale(1) skew(1deg) translate(10px);
+-webkit-transform: rotate(90deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(90deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(90deg) scale(1) skew(1deg) translate(10px);
+-ms-transform: rotate(90deg) scale(1) skew(1deg) translate(10px);
+ }
+      .custom_made_main .custom_made_steps .arr_mob{
+      	display: none;
+      }
+   .custom_made_main .custom_made_steps .step_text{
+      width: 100%;
+      text-align: center;
+   }
+   section.custom_products .container .row .img_col{
+    padding-bottom: 70px;
+   }
+.bg_product_index .solenoid_div .mob_dis_col{
+	display: none;
+}
+.bg_product_index .solenoid_div .container h1{
+    letter-spacing: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+	/*===================================================================================
+			================	    	 F O O T E R      	================
+	====================================================================================*/
+	footer .top_footer .col-md-2{
+		display: none;
+	}
+	footer .top_footer .col-md-10{
+		text-align: center;
+	}
+	footer .top_footer .footer_head{
+		text-align: center;
+    	font-size: 17px;
+    	margin-top: 20px;
+	}
+	footer .top_footer .footer_info {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	footer .top_footer .footer_info span{
+		font-size: 13px;
+	}
+	footer .top_footer .footer_socials{
+		float: none;
+		display: inline-block;
+	}
+	footer .bottom_footer{
+		min-height: 25px;
+	}
+	footer .bottom_footer .container{
+		text-align: center;
+	}
+	footer .bottom_footer span{
+		font-size: 12px;
+	}
+}
+@media(max-width: 360px) {
+}
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
